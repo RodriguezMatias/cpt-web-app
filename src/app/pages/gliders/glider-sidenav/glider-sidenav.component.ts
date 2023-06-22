@@ -1,6 +1,6 @@
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component, Input, OnDestroy } from '@angular/core';
-import { Glider } from '../glider';
+import { Glider } from '../../../glider';
 
 @Component({
   selector: 'app-glider-sidenav',

@@ -1,0 +1,36 @@
+.buttonName {
+    font-size: 100%;
+}
+
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+button {
+    font-size: 50%;
+    min-width: min-content;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.9em;
+    white-space: normal;
+}
+
+@media only screen and (min-width : 601px) {
+    .hide-display-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .hide-display-mobile {
+        display: none;
+    }
+}

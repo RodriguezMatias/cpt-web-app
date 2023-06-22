@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { GliderComponent } from './glider/glider.component';
-import { InfoCardContainerComponent } from './info-card-container/info-card-container.component';
+import { GliderComponent } from './pages/gliders/glider/glider.component';
+import { InfoCardContainerComponent } from './pages/gliders/info-card-container/info-card-container.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
-import { FlyWithUsComponent } from './fly-with-us/fly-with-us.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 
 const routes: Routes = [
   { path: 'planeadores', component: InfoCardContainerComponent },

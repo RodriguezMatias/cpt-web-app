@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Deploy
+
+Deploying using angular-cli-ghpages
+Inside the sample folder, add the angular-cli-ghpages package using the following command:
+
+ng add angular-cli-ghpages
+Now, we can proceed to deploy.
+
+The deploy command is simple, and we must add a base-href argument with the name of the repository in it:
+
+ng deploy --base-href=/angular-app/
+Here, the deploy command does all the work. We don’t have to manually build or commit those files.
+
+Once this command finishes running, check the files in the repository using:
+
+https://github.com/<username>/<repositoryname>
+We can see the hosted corresponding site at the following link:
+
+https://<username>.github.io/<repositoryname>
+The <username> refers to our GitHub username and <repositoryname> refers to the name of the repository created on GitHub.
+
+
+
+https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/

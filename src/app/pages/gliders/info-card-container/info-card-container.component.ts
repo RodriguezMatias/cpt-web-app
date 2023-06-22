@@ -1,6 +1,6 @@
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component, Input } from '@angular/core';
-import { Glider } from '../glider';
+import { Glider } from '../../../glider';
 
 @Component({
   selector: 'app-info-card-container',
