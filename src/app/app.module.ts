@@ -15,6 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { GliderComponent } from './glider/glider.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { GliderSidenavComponent } from './glider-sidenav/glider-sidenav.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FlyWithUsComponent } from './fly-with-us/fly-with-us.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { GliderSidenavComponent } from './glider-sidenav/glider-sidenav.componen
     FooterComponent,
     GliderComponent,
     WelcomeComponent,
-    GliderSidenavComponent
+    GliderSidenavComponent,
+    ContactUsComponent,
+    FlyWithUsComponent
   ],
   imports: [
     BrowserModule,
