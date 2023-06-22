@@ -1,0 +1,16 @@
+mat-card{
+    margin: 20px;
+    max-width: fit-content;
+    max-height: fit-content;
+    img{
+        width: 20rem;
+        height: 20rem;
+    }
+    mat-card-title{
+        margin-left: 2px;
+    }
+    mat-card-subtitle{
+        margin-left: 2px;
+    }
+}
+

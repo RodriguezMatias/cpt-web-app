@@ -1,0 +1,25 @@
+<div> 
+    <mat-toolbar color="primary">
+      <div >
+        <!-- <button mat-icon-button (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button> -->
+         <button *ngif="mobileQuery.matches" mat-icon-button>
+          <mat-icon>menu</mat-icon>
+        </button> 
+      </div>
+  
+      <a mat-button class="companyName" routerLink="/">
+        <span>Club de Planeadores Tandil</span>
+      </a>
+      <span class="example-spacer"></span>
+      <div>
+        <a mat-button routerLink="/">Bienvenidos</a>
+        <a mat-button routerLink="/prices">Volá con nosotros</a>
+        <a mat-button routerLink="/glider">Planeadores</a>
+        <a mat-button routerLink="/contact">Contactenos</a>
+      </div>
+  
+    </mat-toolbar>
+
+  </div>
