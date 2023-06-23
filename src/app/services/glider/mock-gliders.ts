@@ -2,63 +2,33 @@ import { Glider } from "src/app/glider";
 
 export const GLIDERS: Glider[] = [
     {
-        gliderMaker: "Acme Gliders",
-        gliderModel: "AG-100",
-        gliderDesignator: "AG1",
-        gliderSize: "Small",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "ag-100-user-manual.pdf",
-        maintenanceManualFilename: "ag-100-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
+        gliderMaker: "Grob",
+        gliderModel: "G103 Twin Astir II",
+        gliderDesignator: "LV-EJB",
+        gliderSize: "Biplaza 18m",
+        photoFilename: "./assets/LV-EJB.png",
+        userManualFilename: "twinII-user-manual.pdf",
+        maintenanceManualFilename: "twinII-maintenance-manual.pdf",
+        description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        gliderMaker: "FlyHigh Gliders",
-        gliderModel: "FH-200",
-        gliderDesignator: "FH2",
-        gliderSize: "Medium",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "fh-200-user-manual.pdf",
-        maintenanceManualFilename: "fh-200-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
+        gliderMaker: "ICA",
+        gliderModel: "Is282B",
+        gliderDesignator: "LV-EJP",
+        gliderSize: "Biplaza 18m",
+        photoFilename: "./assets/LV-EJP.png",
+        userManualFilename: "LV-EJP-user-manual.pdf",
+        maintenanceManualFilename: "LV-EJP-maintenance-manual.pdf",
+        description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        gliderMaker: "SkyHawks Gliders",
-        gliderModel: "SH-300",
-        gliderDesignator: "SH3",
-        gliderSize: "Large",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "sh-300-user-manual.pdf",
-        maintenanceManualFilename: "sh-300-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
-      },
-      {
-        gliderMaker: "Acme Gliders",
-        gliderModel: "AG-100",
-        gliderDesignator: "AG1",
-        gliderSize: "Small",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "ag-100-user-manual.pdf",
-        maintenanceManualFilename: "ag-100-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
-      },
-      {
-        gliderMaker: "FlyHigh Gliders",
-        gliderModel: "FH-200",
-        gliderDesignator: "FH2",
-        gliderSize: "Medium",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "fh-200-user-manual.pdf",
-        maintenanceManualFilename: "fh-200-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
-      },
-      {
-        gliderMaker: "SkyHawks Gliders",
-        gliderModel: "SH-300",
-        gliderDesignator: "SH3",
-        gliderSize: "Large",
-        photoFilename: "./assets/ag-100.jpg",
-        userManualFilename: "sh-300-user-manual.pdf",
-        maintenanceManualFilename: "sh-300-maintenance-manual.pdf",
-        description: "Planeador clase club que se usa para x y j y asdf"
+        gliderMaker: "Smyk",
+        gliderModel: "Pw-5",
+        gliderDesignator: "LV-EMW",
+        gliderSize: "15",
+        photoFilename: "./assets/LV-EMW.png",
+        userManualFilename: "LV-EMW-user-manual.pdf",
+        maintenanceManualFilename: "LV-EMW-maintenance-manual.pdf",
+        description: "Planeador clase mundo que se usa para x y j y asdf"
       }
 ];
