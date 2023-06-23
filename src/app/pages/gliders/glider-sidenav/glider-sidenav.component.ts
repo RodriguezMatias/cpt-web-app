@@ -1,6 +1,7 @@
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component, Input, OnDestroy } from '@angular/core';
 import { Glider } from '../../../glider';
+import { GliderService } from 'src/app/services/glider/glider.service';
 
 @Component({
   selector: 'app-glider-sidenav',
@@ -9,17 +10,20 @@ import { Glider } from '../../../glider';
 })
 export class GliderSidenavComponent implements OnDestroy{
 
-  @Input() gliderArray : Glider[] = [];
-
   private _mobileQueryListener: () => void;
 
   mobileQuery: MediaQueryList;
 
-  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) {
+  gliderArray: Glider[] = [];
+
+  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher,private gliderService: GliderService) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
+    this.getGliders();
   }
+
+
 
   ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
@@ -28,5 +32,11 @@ export class GliderSidenavComponent implements OnDestroy{
   ngOnInit(){
     console.log("glidersArray",this.gliderArray)
   }
+
+
+getGliders(): void {
+ this.gliderService.getGliders()
+     .subscribe(gliders => this.gliderArray = gliders);
+}
 
 }

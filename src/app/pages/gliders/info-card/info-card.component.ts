@@ -9,5 +9,4 @@ export class InfoCardComponent {
   @Input() title = 'Titulo de prueba';
   @Input() subtitle = 'Subtitulo de prueba';
   @Input() image = 'https://dummyimage.com/600x400';
-
 }

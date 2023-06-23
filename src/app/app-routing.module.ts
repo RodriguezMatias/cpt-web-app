@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { GliderComponent } from './pages/gliders/glider/glider.component';
 import { InfoCardContainerComponent } from './pages/gliders/info-card-container/info-card-container.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 

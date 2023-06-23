@@ -1,8 +1,13 @@
 <mat-toolbar color="primary">
-  <button class="hide-display-desktop" mat-icon-button>
-    <mat-icon>menu</mat-icon>
-  </button>
-  
+ <button  class="hide-display-desktop" mat-button [matMenuTriggerFor]="menu">
+  <mat-icon>menu</mat-icon></button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/">Bienvenidos</button>
+    <button mat-menu-item routerLink="/vuelos">Volá con nosotros</button>
+    <button mat-menu-item routerLink="/planeadores">Planeadores</button>
+    <button mat-menu-item routerLink="/contactenos">Contactenos</button>
+  </mat-menu>
+    
   <a mat-button class="buttonName text" routerLink="/">
     Club de Planeadores Tandil
   </a>
