@@ -1,6 +1,6 @@
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component, Input } from '@angular/core';
-import { Glider } from '../../../glider';
+import { Glider } from '../../../models/glider';
 import { GliderService } from 'src/app/services/glider/glider.service';
 
 @Component({

@@ -1,8 +1,8 @@
 <ng-container>
         <app-glider-sidenav></app-glider-sidenav>
         <div class="info-cards">
-                <app-info-card *ngFor="let glider of gliderArray" [title]="glider.gliderMaker"
-                        [subtitle]="glider.gliderDesignator" [image]="glider.photoFilename">
+                <app-info-card *ngFor="let glider of gliderArray" [title]="glider.model"
+                        [subtitle]="glider.designator" [image]="glider.image">
                 </app-info-card>
         </div>
 </ng-container>

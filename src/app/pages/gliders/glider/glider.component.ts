@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Glider } from '../../../glider';
+import { Glider } from '../../../models/glider';
 import { GliderService } from 'src/app/services/glider/glider.service';
 import { ActivatedRoute, Router } from '@angular/router';
 

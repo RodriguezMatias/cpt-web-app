@@ -1,34 +1,26 @@
-import { Glider } from "src/app/glider";
+import { Glider } from "src/app/models/glider";
 
 export const GLIDERS: Glider[] = [
     {
-        gliderMaker: "Grob",
-        gliderModel: "G103 Twin Astir II",
-        gliderDesignator: "LV-EJB",
-        gliderSize: "Biplaza 18m",
-        photoFilename: "./assets/LV-EJB.png",
-        userManualFilename: "twinII-user-manual.pdf",
-        maintenanceManualFilename: "twinII-maintenance-manual.pdf",
+        model: "Grob G103 Twin Astir II",
+        designator: "LV-EJB",
+        image: "./assets/LV-EJB/photo.png",
+        manualList:[{name:"Manual de usuario",link:"https://drive.google.com/file/d/1qhl45ohaZ9qaEeeAyUp-xEWh18J9zIlb/view?usp=drive_link"}],
         description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        gliderMaker: "ICA",
-        gliderModel: "Is282B",
-        gliderDesignator: "LV-EJP",
-        gliderSize: "Biplaza 18m",
-        photoFilename: "./assets/LV-EJP.png",
-        userManualFilename: "LV-EJP-user-manual.pdf",
-        maintenanceManualFilename: "LV-EJP-maintenance-manual.pdf",
+        model: "ICA Is282B",
+        designator: "LV-EJP",
+        image: "./assets/LV-EJP.png",
+        manualList:[{name:"Manual de usuario",link:"LV-EJP-user-manual.pdf"},
+        {name:"Manual de mantenimiento",link:"LV-EJP-maintenance-manual.pdf"}],
         description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        gliderMaker: "Smyk",
-        gliderModel: "Pw-5",
-        gliderDesignator: "LV-EMW",
-        gliderSize: "15",
-        photoFilename: "./assets/LV-EMW.png",
-        userManualFilename: "LV-EMW-user-manual.pdf",
-        maintenanceManualFilename: "LV-EMW-maintenance-manual.pdf",
+        model: "Smyk Pw-5",
+        designator: "LV-EMW",
+        image: "./assets/LV-EMW.png",
+        manualList:[],
         description: "Planeador clase mundo que se usa para x y j y asdf"
       }
 ];
