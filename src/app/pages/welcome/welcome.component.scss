@@ -3,7 +3,6 @@ p {
   font-size: 120%;
 }
 mat-grid-tile {
-  background: lightblue;
 }
 
 .title{
@@ -17,4 +16,8 @@ mat-grid-tile {
     justify-content: center;
     align-content: space-around;
     flex-wrap: nowrap;
+}
+
+.icon-size{
+    font-size: 1vw;
 }

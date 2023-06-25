@@ -15,8 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { GliderComponent } from './pages/gliders/glider/glider.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
-import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
+import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +29,8 @@ import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
     GliderComponent,
     WelcomeComponent,
     GliderSidenavComponent,
-    ContactUsComponent,
-    FlyWithUsComponent
+    FlyWithUsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

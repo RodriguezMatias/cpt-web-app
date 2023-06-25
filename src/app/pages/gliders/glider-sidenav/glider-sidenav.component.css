@@ -1,8 +1,7 @@
 .container {
     float: left;
     width: fit-content;
-    /* //TODO:FIX THIS */
-    height: 80vh;
+    height: 100vh;
     margin-right: 15px;
 }
 
