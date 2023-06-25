@@ -10,7 +10,7 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
 const routes: Routes = [
   { path: 'planeadores', component: InfoCardContainerComponent },
   { path: 'planeadores/:designator', component: GliderComponent },
-  { path: 'vuelos', component: FlyWithUsComponent },
+  { path: 'informacion', component: FlyWithUsComponent },
   { path: '' , component: WelcomeComponent},
   { path: '**', pathMatch: 'full', 
       component: PagenotfoundComponent },
