@@ -8,8 +8,8 @@ import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
-  { path: 'planeadores', component: InfoCardContainerComponent },
-  { path: 'planeadores/:designator', component: GliderComponent },
+  { path: 'aeronaves', component: InfoCardContainerComponent },
+  { path: 'aeronaves/:designator', component: GliderComponent },
   { path: 'informacion', component: FlyWithUsComponent },
   { path: '' , component: WelcomeComponent},
   { path: '**', pathMatch: 'full', 
