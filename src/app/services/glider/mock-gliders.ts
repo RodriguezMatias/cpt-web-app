@@ -13,7 +13,7 @@ export const GLIDERS: Glider[] = [
         description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        model: "ICA Is282B",
+        model: 'ICA Is282B "AW"',
         designator: "LV-EJP",
         image: "https://drive.google.com/uc?id=1SxzhToRHB4nuigX-TKfnoL1n4j2YZCLj",
         manualList:[{name:"Manual de vuelo",link:"https://drive.google.com/file/d/1nsh3AE_l1dghLO6XHg3Aj8sHTt5zEGOb/view?usp=drive_link"},
@@ -21,7 +21,7 @@ export const GLIDERS: Glider[] = [
         description: "Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos."
       },
       {
-        model: "Smyk Pw-5",
+        model: 'Smyk Pw-5 "ST"',
         designator: "LV-EMW",
         image: "https://drive.google.com/uc?id=1KyqBm_If-1DWm23VUQFGKs7byO4ocbBI",
         manualList:[
@@ -42,10 +42,45 @@ export const GLIDERS: Glider[] = [
         description: "Planeador clase club."
       },
       {
-        model: 'Aero Boero 180 ',
+        model: 'Schempp-Hirth Cirrus 75 "35"',
+        designator: "LV-EIH",
+        image: "",
+        manualList:[],
+        description: 'Planeador(Pagina En proceso)'
+      },
+      {
+        model: 'Schempp-Hirth Cirrus "95"',
+        designator: "LV-DJA",
+        image: "",
+        manualList:[],
+        description: 'Planeador(Pagina En proceso)'
+      },
+      {
+        model: 'Jantar Std 2 "PT"',
+        designator: "LV-EIT",
+        image: "",
+        manualList:[],
+        description: 'Planeador(Pagina En proceso)'
+      },
+      {
+        model: 'Jantar 2B "HV"',
+        designator: "LV-DOB",
+        image: "",
+        manualList:[],
+        description: 'Planeador(Pagina En proceso)'
+      },
+      {
+        model: 'Aero Boero 180',
         designator: "LV-AOG",
         image: "",
         manualList:[],
-        description: "Remolcador afectado al club de planeadores Tandil."
+        description: "Remolcador afectado al club de planeadores Tandil. (Pagina En proceso)"
+      },
+      {
+        model: 'Aero Boero 180',
+        designator: "LV-LPR",
+        image: "",
+        manualList:[],
+        description: "Remolcador afectado al club de planeadores Tandil. (Pagina En proceso)"
       }
 ];
