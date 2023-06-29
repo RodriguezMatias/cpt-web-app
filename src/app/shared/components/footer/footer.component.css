@@ -1,7 +1,9 @@
 .example-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-size: 1em;
 }
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+}
+

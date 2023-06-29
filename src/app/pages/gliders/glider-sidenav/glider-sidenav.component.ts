@@ -30,7 +30,6 @@ export class GliderSidenavComponent implements OnDestroy{
   }
 
   ngOnInit(){
-    console.log("glidersArray",this.gliderArray)
   }
 
 
