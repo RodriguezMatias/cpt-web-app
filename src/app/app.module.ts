@@ -10,13 +10,13 @@ import { EnumeratePipe } from './enumerate.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
 import { MediaMatcher } from '@angular/cdk/layout';
-import { FooterComponent } from './shared/components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { GliderComponent } from './pages/gliders/glider/glider.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { OpenStreetMapComponent } from './shared/components/open-street-map/open-street-map.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +25,12 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
     InfoCardContainerComponent,
     EnumeratePipe,
     ToolbarComponent,
-    FooterComponent,
     GliderComponent,
     WelcomeComponent,
     GliderSidenavComponent,
     FlyWithUsComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    OpenStreetMapComponent
   ],
   imports: [
     BrowserModule,
