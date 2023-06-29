@@ -16,7 +16,6 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
-import { OpenStreetMapComponent } from './shared/components/open-street-map/open-street-map.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { OpenStreetMapComponent } from './shared/components/open-street-map/open
     GliderSidenavComponent,
     FlyWithUsComponent,
     PagenotfoundComponent,
-    OpenStreetMapComponent
   ],
   imports: [
     BrowserModule,

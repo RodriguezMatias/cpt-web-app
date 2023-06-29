@@ -13,13 +13,13 @@ export class GliderService {
     return glider;
   }
 
-  getGlider(designator:string): Observable<Glider> {
-    const gliders : Glider[] = GLIDERS;
+  getGlider(designator: string): Observable<Glider> {
+    const gliders: Glider[] = GLIDERS;
     const result = gliders.find(({ designator: gliderDesignator }) => gliderDesignator === designator);
-    if(result){
+    if (result) {
       return of(result);
     }
-    throw("Error,"+designator+" not found");  
+    throw ("Error," + designator + " not found");
   }
 
 }

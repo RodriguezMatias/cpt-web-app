@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { GliderComponent } from './pages/gliders/glider/glider.component';
 import { InfoCardContainerComponent } from './pages/gliders/info-card-container/info-card-container.component';

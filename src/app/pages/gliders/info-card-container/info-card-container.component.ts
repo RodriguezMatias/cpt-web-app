@@ -9,8 +9,8 @@ import { GliderService } from 'src/app/services/glider/glider.service';
   styleUrls: ['./info-card-container.component.scss'],
 
 })
-export class InfoCardContainerComponent  {
-  
+export class InfoCardContainerComponent {
+
   sliderValue = 1;
 
   private _mobileQueryListener: () => void;
@@ -19,14 +19,11 @@ export class InfoCardContainerComponent  {
 
   mobileQuery: MediaQueryList;
 
-  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher,gliderService: GliderService) {
+  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, gliderService: GliderService) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
-
     gliderService.getGliders().subscribe(gliders => this.gliderArray = gliders);
-   
-    
   }
 
   ngOnDestroy(): void {

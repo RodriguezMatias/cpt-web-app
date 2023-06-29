@@ -8,25 +8,22 @@ import { ActivatedRoute, Router } from '@angular/router';
   templateUrl: './glider.component.html',
   styleUrls: ['./glider.component.scss']
 })
-export class GliderComponent implements OnInit{
+export class GliderComponent implements OnInit {
 
- glider: Glider = {} as Glider;
+  glider: Glider = {} as Glider;
 
- constructor(private activeRoute: ActivatedRoute,private router: Router,private gliderService: GliderService) {
+  constructor(private activeRoute: ActivatedRoute, private router: Router, private gliderService: GliderService) {
     this.getGlider(this.router.url.split('/').pop()!);
- }
+  }
 
- ngOnInit() {
-	this.activeRoute.queryParams.subscribe(queryParams => {
-		// do something with the query params
-	});
-	this.activeRoute.params.subscribe(routeParams => {
-    let gliderDesignator = this.router.url.split('/').pop()!;
-		this.getGlider(gliderDesignator);
-	});
-}
+  ngOnInit() {
+    this.activeRoute.params.subscribe(routeParams => {
+      let gliderDesignator = this.router.url.split('/').pop()!;
+      this.getGlider(gliderDesignator);
+    });
+  }
 
-  getGlider(gliderDesignator:string): void {
+  getGlider(gliderDesignator: string): void {
     this.gliderService.getGlider(gliderDesignator)
       .subscribe(x => this.glider = x);
   }

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.scss']
 })
-export class WelcomeComponent implements OnInit  {
+export class WelcomeComponent implements OnInit {
 
   matVersion: string = '5.1.0';
   breakpoint = 0;
@@ -13,8 +13,8 @@ export class WelcomeComponent implements OnInit  {
   ngOnInit() {
     this.breakpoint = (window.innerWidth <= 950) ? 1 : 2;
   }
-  
-  onResize(event:any) {
+
+  onResize(event: any) {
     this.breakpoint = (event.target.innerWidth <= 950) ? 1 : 2;
   }
 }
