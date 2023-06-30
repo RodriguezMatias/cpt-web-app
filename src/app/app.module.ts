@@ -16,6 +16,7 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
     GliderSidenavComponent,
     FlyWithUsComponent,
     PagenotfoundComponent,
+    ScrollToTopComponent,
   ],
   imports: [
     BrowserModule,

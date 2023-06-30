@@ -1,11 +1,16 @@
-    mat-card {
-        margin: 10px;
-        background-color: #efefff1f;
-        ;
-        margin: 1rem;
-        padding: 0.5rem;
-
-        img {
-            width: 200px;
-        }
+mat-card {
+    left: 10vw;
+    right: 10vw;
+    max-width: 80vw;
+    justify-content: center;
+    background-color: #efefff1f;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem;
+    img {
+        width: 200px;
     }
+}
+
+h1{
+    margin: 10px;
+}
