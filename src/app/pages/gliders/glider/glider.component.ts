@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Glider } from '../../../models/glider';
 import { GliderService } from 'src/app/services/glider/glider.service';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -10,15 +10,16 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class GliderComponent implements OnInit {
   glider: Glider = {} as Glider;
+  gliderDesignator?: string;
+
 
   constructor(private activeRoute: ActivatedRoute, private router: Router, private gliderService: GliderService) {
-    this.getGlider(this.router.url.split('/').pop()!);
   }
 
   ngOnInit() {
-    this.activeRoute.params.subscribe((routeParams) => {
-      let gliderDesignator = this.router.url.split('/').pop()!;
-      this.getGlider(gliderDesignator);
+    this.activeRoute.params.subscribe(() => {
+      this.gliderDesignator = this.router.url.split('/').pop() ?? '';
+      this.getGlider(this.gliderDesignator);
     });
   }
 
