@@ -25,9 +25,11 @@ p {
 }
 
 .background-main {
-  background-color: lightgray;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(211, 211, 211, 1) 15%);
+  background-image:linear-gradient(0deg,rgba(255,255,255,1) 1%, rgba(255,255,255,0.7) 2%, rgba(255,255,255,0) 100%),url("/assets/fondo.jpg");
+  height: 40vh;
+  background-size: cover;
+  color: white;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -38,4 +40,5 @@ p {
 .title {
   font-family: fantasy;
   font-size: 4vw;
+  color: #606060;
 }
