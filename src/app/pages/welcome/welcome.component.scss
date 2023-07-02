@@ -6,8 +6,11 @@ p {
 .display-flex {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: flex-start;
+  justify-content: center
 }
+
 
 .icon-size {
   font-size: 1vw;
@@ -15,13 +18,39 @@ p {
 
 .map-card {
   width: 95%;
-  height: fit-content;
+  height: 100%;
   padding: 10px;
+}
+
+.media-card{
+  padding: 2rem;
+  width: 95%;
+  height: 100%;
+}
+
+.media-text{
+  font-family: fantasy;
+  font-size: 2rem;
 }
 
 .logo-centered {
   height: 30vh;
   max-width: 70vw;
+}
+
+
+
+@media only screen and (min-width: 951px) {
+  .social-media-container{
+    margin-top: 4rem;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .social-media-container{
+    margin-top: 4rem;
+  }
 }
 
 .background-main {
@@ -40,8 +69,11 @@ p {
   justify-content: center;
 }
 
-.title {
+.subtitle-text{
   font-family: fantasy;
-  font-size: 4vw;
+  font-size: 2rem;
   color: #606060;
 }
+
+
+
