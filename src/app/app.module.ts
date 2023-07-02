@@ -15,7 +15,7 @@ import { GliderComponent } from './pages/gliders/glider/glider.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
-import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { PagenotfoundComponent } from './pages/page-not-found/page-not-found.component';
 import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
