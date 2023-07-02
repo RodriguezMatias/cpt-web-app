@@ -8,9 +8,8 @@ describe('GliderSidenavComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GliderSidenavComponent ]
-    })
-    .compileComponents();
+      declarations: [GliderSidenavComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(GliderSidenavComponent);
     component = fixture.componentInstance;

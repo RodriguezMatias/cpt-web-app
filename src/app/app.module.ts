@@ -32,18 +32,8 @@ import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-t
     PagenotfoundComponent,
     ScrollToTopComponent,
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    FormsModule,
-    ReactiveFormsModule,
-    AppRoutingModule,
-  ],
-  providers: [
-    MediaMatcher,
-    MediaQueryList
-  ],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
+  providers: [MediaMatcher, MediaQueryList],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

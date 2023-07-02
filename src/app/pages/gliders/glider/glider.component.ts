@@ -6,10 +6,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-glider',
   templateUrl: './glider.component.html',
-  styleUrls: ['./glider.component.scss']
+  styleUrls: ['./glider.component.scss'],
 })
 export class GliderComponent implements OnInit {
-
   glider: Glider = {} as Glider;
 
   constructor(private activeRoute: ActivatedRoute, private router: Router, private gliderService: GliderService) {
@@ -17,15 +16,13 @@ export class GliderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.activeRoute.params.subscribe(routeParams => {
+    this.activeRoute.params.subscribe((routeParams) => {
       let gliderDesignator = this.router.url.split('/').pop()!;
       this.getGlider(gliderDesignator);
     });
   }
 
   getGlider(gliderDesignator: string): void {
-    this.gliderService.getGlider(gliderDesignator)
-      .subscribe(x => this.glider = x);
+    this.gliderService.getGlider(gliderDesignator).subscribe((x) => (this.glider = x));
   }
-
 }

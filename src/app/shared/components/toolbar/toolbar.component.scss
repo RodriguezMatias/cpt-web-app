@@ -1,41 +1,41 @@
 .buttonName {
-    font-size: 100%;
+  font-size: 100%;
 }
 
-.text{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 button {
-    font-size: 50%;
-    min-width: min-content;
+  font-size: 50%;
+  min-width: min-content;
 }
 
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 a {
-    text-decoration: none;
-    font-size: 0.9em;
-    white-space: normal;
+  text-decoration: none;
+  font-size: 0.9em;
+  white-space: normal;
 }
 
-@media only screen and (min-width : 951px) {
-    .hide-display-desktop {
-        display: none;
-    }
+@media only screen and (min-width: 951px) {
+  .hide-display-desktop {
+    display: none;
+  }
 }
 
-@media only screen and (max-width : 950px) {
-    .hide-display-mobile {
-        display: none;
-    }
+@media only screen and (max-width: 950px) {
+  .hide-display-mobile {
+    display: none;
+  }
 }
 
-.toolbar{
-    background: rgb(46,59,131);
-    background: linear-gradient(0deg, rgba(46,59,131,1) 0%, rgba(63,81,181,1) 20%, rgba(63,81,181,1) 100%);
+.toolbar {
+  background: rgb(46, 59, 131);
+  background: linear-gradient(0deg, rgba(46, 59, 131, 1) 0%, rgba(63, 81, 181, 1) 20%, rgba(63, 81, 181, 1) 100%);
 }

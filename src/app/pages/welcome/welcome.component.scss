@@ -3,39 +3,39 @@ p {
   font-size: 120%;
 }
 
-.display-flex{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.icon-size{
-    font-size: 1vw;
+.icon-size {
+  font-size: 1vw;
 }
 
-.map-card{
-    width: 95%;
-    height: fit-content;
-    padding: 10px;
+.map-card {
+  width: 95%;
+  height: fit-content;
+  padding: 10px;
 }
 
-.logo-centered{
-    height: 30vh;
-    max-width: 70vw;
+.logo-centered {
+  height: 30vh;
+  max-width: 70vw;
 }
 
-.background-main{
-    background-color: lightgray;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(211,211,211,1) 15%);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+.background-main {
+  background-color: lightgray;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(211, 211, 211, 1) 15%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.title{
-    font-family: fantasy;
-    font-size: 4vw;
+.title {
+  font-family: fantasy;
+  font-size: 4vw;
 }

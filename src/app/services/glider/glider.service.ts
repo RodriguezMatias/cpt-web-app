@@ -4,10 +4,9 @@ import { GLIDERS } from './mock-gliders';
 import { Observable, of, throwError } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class GliderService {
-
   getGliders(): Observable<Glider[]> {
     const glider = of(GLIDERS);
     return glider;
@@ -19,7 +18,6 @@ export class GliderService {
     if (result) {
       return of(result);
     }
-    throw ("Error," + designator + " not found");
+    throw 'Error,' + designator + ' not found';
   }
-
 }

@@ -10,13 +10,12 @@ const routes: Routes = [
   { path: 'aeronaves', component: InfoCardContainerComponent },
   { path: 'aeronaves/:designator', component: GliderComponent },
   { path: 'informacion', component: FlyWithUsComponent },
-  { path: '' , component: WelcomeComponent},
-  { path: '**', pathMatch: 'full', 
-      component: PagenotfoundComponent },
+  { path: '', component: WelcomeComponent },
+  { path: '**', pathMatch: 'full', component: PagenotfoundComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

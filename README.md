@@ -50,3 +50,6 @@ The <username> refers to our GitHub username and <repositoryname> refers to the 
 
 
 https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/
+
+
+##Code formated with prettier

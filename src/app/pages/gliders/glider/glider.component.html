@@ -1,21 +1,19 @@
 <ng-container>
-    <app-glider-sidenav></app-glider-sidenav>
-    <mat-card>
-        <h1>
-            {{glider.model}} -
-            {{glider.designator}}
-        </h1>
-        <img mat-card-image src={{glider.image}} alt="Card image" onError="this.src='./assets/logo.png'" />
+  <app-glider-sidenav></app-glider-sidenav>
+  <mat-card>
+    <h1>
+      {{ glider.model }} -
+      {{ glider.designator }}
+    </h1>
+    <img mat-card-image src="{{ glider.image }}" alt="Card image" onError="this.src='./assets/logo.png'" />
 
-        <h1> {{glider.description}}</h1>
+    <h1>{{ glider.description }}</h1>
 
-        <mat-card *ngIf="glider.manualList.length > 0">
-            <h2>Documentacion</h2>
-            <ng-container *ngFor="let manual of glider.manualList">
-                <a href={{manual.link}} mat-menu-item>{{manual.name}}</a>
-            </ng-container>
-        </mat-card>
-
+    <mat-card *ngIf="glider.manualList.length > 0">
+      <h2>Documentacion</h2>
+      <ng-container *ngFor="let manual of glider.manualList">
+        <a href="{{ manual.link }}" mat-menu-item>{{ manual.name }}</a>
+      </ng-container>
     </mat-card>
-
+  </mat-card>
 </ng-container>

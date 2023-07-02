@@ -1,9 +1,9 @@
 .container {
-    float: left;
-    height: 100vh;
-    z-index: 0;
+  float: left;
+  height: 100vh;
+  z-index: 0;
 }
 
-.text-size{
-    font-size: 1em !important;
+.text-size {
+  font-size: 1em !important;
 }

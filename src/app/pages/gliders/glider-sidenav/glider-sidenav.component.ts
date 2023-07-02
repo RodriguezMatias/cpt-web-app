@@ -6,10 +6,9 @@ import { GliderService } from 'src/app/services/glider/glider.service';
 @Component({
   selector: 'app-glider-sidenav',
   templateUrl: './glider-sidenav.component.html',
-  styleUrls: ['./glider-sidenav.component.css']
+  styleUrls: ['./glider-sidenav.component.css'],
 })
 export class GliderSidenavComponent implements OnDestroy {
-
   private _mobileQueryListener: () => void;
 
   mobileQuery: MediaQueryList;
@@ -22,14 +21,12 @@ export class GliderSidenavComponent implements OnDestroy {
     this.mobileQuery.addListener(this._mobileQueryListener);
     this.getGliders();
   }
-  
+
   ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 
   getGliders(): void {
-    this.gliderService.getGliders()
-      .subscribe(gliders => this.gliderArray = gliders);
+    this.gliderService.getGliders().subscribe((gliders) => (this.gliderArray = gliders));
   }
-
 }
