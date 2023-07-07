@@ -1,4 +1,6 @@
 .info-cards {
+  height: 100vh;
+  overflow-y:auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
