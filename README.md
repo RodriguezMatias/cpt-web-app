@@ -53,3 +53,15 @@ https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/
 
 
 ##Code formated with prettier
+
+
+##Domain
+
+Domain registeres at nic.ar
+
+Dns registered at 
+https://www.namecheap.com/domains/freedns
+
+FreeDns
+
+https://curiosidadesespaciales.ar/2020/09/21/Tutorial-blog-2/
