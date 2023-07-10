@@ -65,3 +65,8 @@ https://www.namecheap.com/domains/freedns
 FreeDns
 
 https://curiosidadesespaciales.ar/2020/09/21/Tutorial-blog-2/
+
+
+To deploy 
+
+ ng deploy --base-href=https://cplaneadorestandil.com.ar
