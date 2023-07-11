@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.scss'],
 })
 export class WelcomeComponent implements OnInit {
-  matVersion: string = '5.1.0';
+  matVersion = '5.1.0';
   breakpoint = 0;
 
   ngOnInit() {

@@ -17,6 +17,10 @@ import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-si
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/page-not-found/page-not-found.component';
 import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-to-top.component';
+import { ParallaxDirective } from './shared/directives/parallax.directive';
+import { ImageParallaxComponent } from './pages/welcome/image-parallax/image-parallax.component';
+import { MapCardComponent } from './pages/welcome/map-card/map-card.component';
+import { SocialCardComponent } from './pages/welcome/social-card/social-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-t
     FlyWithUsComponent,
     PagenotfoundComponent,
     ScrollToTopComponent,
+    ParallaxDirective,
+    ImageParallaxComponent,
+    SocialCardComponent,
+    MapCardComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [MediaMatcher, MediaQueryList],
