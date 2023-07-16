@@ -1,4 +1,4 @@
-@use "@angular/material" as mat;
+@use '@angular/material' as mat;
 
 @include mat.core();
 
@@ -24,7 +24,8 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #b3c7b1;
 }
 
 /*this hiddes the scrollbar on desktop mode

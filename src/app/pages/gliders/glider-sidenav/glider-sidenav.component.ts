@@ -6,7 +6,7 @@ import { GliderService } from 'src/app/services/glider/glider.service';
 @Component({
   selector: 'app-glider-sidenav',
   templateUrl: './glider-sidenav.component.html',
-  styleUrls: ['./glider-sidenav.component.css'],
+  styleUrls: ['./glider-sidenav.component.scss'],
 })
 export class GliderSidenavComponent implements OnDestroy {
   private _mobileQueryListener: () => void;

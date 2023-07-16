@@ -1,41 +1,18 @@
-@media only screen and (min-width: 951px) {
-  div{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    app-image-parallax{
-      width: 100vw;
-    }
-    app-map-card {
-      margin: 10px;
-      width: 90vw;
-    }
-    app-social-card {
-      margin: 10px;
-      width: 90vw;
-    }
+div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  app-image-parallax {
+    width: 100vw;
   }
-}
-
-@media only screen and (max-width: 950px) {
-  div{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    app-image-parallax{
-      width: 100vw;
-    }
-    app-map-card {
-      margin: 10px;
-      width: 90vw;
-    }
-    app-social-card {
-      margin: 10px;
-      width: 90vw;
-    }
+  app-social-card {
+    margin: 10px;
+    width: 90vw;
+  }
+  app-map-card {
+    margin: 10px;
+    width: 90vw;
   }
 }

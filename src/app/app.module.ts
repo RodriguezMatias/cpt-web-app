@@ -21,6 +21,7 @@ import { ParallaxDirective } from './shared/directives/parallax.directive';
 import { ImageParallaxComponent } from './pages/welcome/image-parallax/image-parallax.component';
 import { MapCardComponent } from './pages/welcome/map-card/map-card.component';
 import { SocialCardComponent } from './pages/welcome/social-card/social-card.component';
+import { ButtonMenuComponent } from './pages/welcome/button-menu/button-menu.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { SocialCardComponent } from './pages/welcome/social-card/social-card.com
     ImageParallaxComponent,
     SocialCardComponent,
     MapCardComponent,
+    ButtonMenuComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [MediaMatcher, MediaQueryList],

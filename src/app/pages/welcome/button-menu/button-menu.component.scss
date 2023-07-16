@@ -1,0 +1,9 @@
+mat-card {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  button {
+    margin: 10px;
+  }
+}
