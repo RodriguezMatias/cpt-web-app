@@ -51,7 +51,13 @@ export const GLIDERS: Glider[] = [
     model: 'Grob G102 Astir Cs77 "59"',
     designator: 'LV-DNH',
     image: 'https://drive.google.com/uc?id=1oJVlg-yQLkybXWR2JnZk8d8iFLpz91ra',
-    manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1tTe-OKSdZJXv8GBs9RvYH24e8ORNuR_P/view?usp=drive_link' }],
+    manualList: [
+      { name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1tTe-OKSdZJXv8GBs9RvYH24e8ORNuR_P/view?usp=drive_link' },
+      {
+        name: 'Manual de vuelo y Mantenimiento (No oficial-Ingles)',
+        link: 'https://drive.google.com/file/d/1vSoQ1hH4Ki0xqM-L-OKow10rqZ5lXvMc/view?usp=drive_link',
+      },
+    ],
     description: 'Planeador clase club.',
   },
   {
@@ -87,12 +93,12 @@ export const GLIDERS: Glider[] = [
     designator: 'LV-AOG',
     image: 'https://drive.google.com/uc?id=1TRYV_OrRP_EnVqyYvk-f1Lqktcfw8-gj',
     manualList: [
-      { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 2', link: 'https://drive.google.com/file/d/1AH07vp5RyCrX8iSU5AWs4rk4PF0EBbOw/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 3', link: 'https://drive.google.com/file/d/1GZfnuGuoB4LWqFL99NWL5MCcF-0J8wsC/view?usp=drive_link'},
-      { name: 'AB 180 Manual de mantenimiento', link: 'https://drive.google.com/file/d/1Vn2sCbgMR5dZseWM9qcZ8mRzEtbOukXO/view?usp=drive_link'},
-      { name: 'AB 180 Inspeccion', link: 'https://drive.google.com/file/d/1IbixHJMGFI8WExNH9_Wmko5mACjHQ6UG/view?usp=drive_link'}
+      { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 2', link: 'https://drive.google.com/file/d/1AH07vp5RyCrX8iSU5AWs4rk4PF0EBbOw/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 3', link: 'https://drive.google.com/file/d/1GZfnuGuoB4LWqFL99NWL5MCcF-0J8wsC/view?usp=drive_link' },
+      { name: 'AB 180 Manual de mantenimiento', link: 'https://drive.google.com/file/d/1Vn2sCbgMR5dZseWM9qcZ8mRzEtbOukXO/view?usp=drive_link' },
+      { name: 'AB 180 Inspeccion', link: 'https://drive.google.com/file/d/1IbixHJMGFI8WExNH9_Wmko5mACjHQ6UG/view?usp=drive_link' },
     ],
     description: 'Remolcador afectado al club de planeadores Tandil',
   },
@@ -101,13 +107,13 @@ export const GLIDERS: Glider[] = [
     designator: 'LV-LPR',
     image: 'https://drive.google.com/uc?id=1Bbi3SRx1AZmlYQajPLhhYx2iyZxU1Px9',
     manualList: [
-      { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 2', link: 'https://drive.google.com/file/d/1AH07vp5RyCrX8iSU5AWs4rk4PF0EBbOw/view?usp=drive_link'},
-      { name: 'AB 180 Manual vuelo 3', link: 'https://drive.google.com/file/d/1GZfnuGuoB4LWqFL99NWL5MCcF-0J8wsC/view?usp=drive_link'},
-      { name: 'AB 180 Manual de mantenimiento', link: 'https://drive.google.com/file/d/1Vn2sCbgMR5dZseWM9qcZ8mRzEtbOukXO/view?usp=drive_link'},
-      { name: 'AB 180 Inspeccion', link: 'https://drive.google.com/file/d/1IbixHJMGFI8WExNH9_Wmko5mACjHQ6UG/view?usp=drive_link'}
-  ],
+      { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 2', link: 'https://drive.google.com/file/d/1AH07vp5RyCrX8iSU5AWs4rk4PF0EBbOw/view?usp=drive_link' },
+      { name: 'AB 180 Manual vuelo 3', link: 'https://drive.google.com/file/d/1GZfnuGuoB4LWqFL99NWL5MCcF-0J8wsC/view?usp=drive_link' },
+      { name: 'AB 180 Manual de mantenimiento', link: 'https://drive.google.com/file/d/1Vn2sCbgMR5dZseWM9qcZ8mRzEtbOukXO/view?usp=drive_link' },
+      { name: 'AB 180 Inspeccion', link: 'https://drive.google.com/file/d/1IbixHJMGFI8WExNH9_Wmko5mACjHQ6UG/view?usp=drive_link' },
+    ],
     description: 'Remolcador afectado al club de planeadores Tandil',
   },
 ];

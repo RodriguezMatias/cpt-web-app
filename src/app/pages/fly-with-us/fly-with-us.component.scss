@@ -1,16 +1,19 @@
-mat-card {
-  left: 10vw;
-  right: 10vw;
-  max-width: 80vw;
-  justify-content: center;
-  background-color: lightgrey;
-  margin: 1rem 0 1rem 0;
-  padding: 0.5rem;
-  img {
-    width: 200px;
+div {
+  background-color: #878e91ec;
+  mat-card {
+    left: 10vw;
+    right: 10vw;
+    max-width: 80vw;
+    justify-content: center;
+    background: #878e914a;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem;
+    img {
+      width: 200px;
+    }
   }
-}
 
-h1 {
-  margin: 10px;
+  h1 {
+    margin: 10px;
+  }
 }

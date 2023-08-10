@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Glider } from 'src/app/models/glider';
 import { GLIDERS } from './mock-gliders';
-import { Observable, of, throwError } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',

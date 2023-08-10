@@ -1,9 +1,16 @@
 mat-card {
-  background-color: lightgrey;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #878e914a;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   a {
+    color: white;
     margin: 10px;
+    text-decoration: none;
+    img {
+      filter: invert(1);
+    }
   }
 }
