@@ -1,12 +1,9 @@
-mat-sidenav {
-  background: #878e914a;
-}
-.container {
+mat-sidenav-container {
   float: left;
   height: 100vh;
   z-index: 0;
-}
-
-.text-size {
-  font-size: 1em !important;
+  background-color: #878e912c;
+  mat-sidenav {
+    background-color: #878e9100;
+  }
 }
