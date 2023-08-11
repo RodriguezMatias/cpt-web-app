@@ -13,7 +13,7 @@
       <mat-card *ngIf="glider.manualList.length > 0">
         <h2>Documentacion - Descargas</h2>
         <ng-container *ngFor="let manual of glider.manualList">
-          <a href="{{ manual.link }}" mat-menu-item>
+          <a href="{{ manual.link }}" mat-raised-button color="primary">
             {{ manual.name }} - Descargar
             <img src="./assets/svg/download.svg" />
           </a>

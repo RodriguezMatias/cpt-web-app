@@ -1,9 +1,10 @@
 mat-card {
   background: #878e914a;
-  align-items: center;
-  justify-content: center;
   padding: 10px;
   img {
+    left: 29%;
+    border: 1px solid black;
+    border-radius: 5px;
     width: 40%;
     height: 40%;
   }

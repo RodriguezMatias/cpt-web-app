@@ -19,18 +19,14 @@ mat-drawer-container {
         border-radius: 5px;
       }
       a {
-        background-color: #afd393;
-        color: white;
         margin: 10px;
-        width: fit-content;
-        border: 1px solid rgba(0, 0, 0, 0.507);
-        border-radius: 5px;
+        padding: 2rem;
         display: flex;
         text-align: center;
+        font-size: 1rem;
+        text-decoration: none;
         img {
-          filter: invert(1);
           margin: auto;
-          display: block;
           height: 30px;
           width: 30px;
           border: 0;
