@@ -1,4 +1,8 @@
-<app-glider-sidenav></app-glider-sidenav>
-<div class="info-cards">
-  <app-info-card *ngFor="let glider of gliderArray" [title]="glider.model" [subtitle]="glider.designator" [image]="glider.image"> </app-info-card>
-</div>
+<mat-drawer-container>
+  <mat-drawer mode="side" opened><app-glider-sidenav></app-glider-sidenav></mat-drawer>
+  <mat-drawer-content>
+    <div class="info-cards">
+      <app-info-card *ngFor="let glider of gliderArray" [title]="glider.model" [subtitle]="glider.designator" [image]="glider.image"> </app-info-card>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

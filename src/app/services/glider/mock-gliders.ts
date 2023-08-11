@@ -10,7 +10,7 @@ export const GLIDERS: Glider[] = [
       { name: 'Manual de vuelo Twin II (Ingles)', link: 'https://drive.google.com/file/d/1B-ZhsByirAkh8mqSL5dcM8D8Z15jY1Js/view?usp=drive_link' },
       {
         name: 'Manual de mantenimiento Twin II (Ingles)',
-        link: ' https://drive.google.com/file/d/19yZ5BnD6r8uE8WnZHgU--WJQ1TsBzT0e/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/19yZ5BnD6r8uE8WnZHgU--WJQ1TsBzT0e/view?usp=drive_link',
       },
     ],
     description: 'Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos.',
