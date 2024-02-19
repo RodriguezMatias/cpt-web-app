@@ -2,11 +2,15 @@ mat-card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #878e914a;
+  background: #878e91da;
   align-items: center;
-  justify-content: space-around;
+  width: fit-content;
+  padding: 10px;
   a {
     margin: 10px;
     text-decoration: none;
+    img {
+      margin: 0px 10px -3px 10px;
+    }
   }
 }

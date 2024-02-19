@@ -1,0 +1,23 @@
+div {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  mat-card {
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    background: #878e91da;
+    align-items: center;
+    justify-content: space-around;
+    a {
+      margin: 10px;
+      text-decoration: none;
+    }
+  }
+  app-social-card {
+    margin: 10px;
+  }
+}
