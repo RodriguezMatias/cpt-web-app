@@ -1,8 +1,18 @@
 div {
-  margin: 5rem;
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -1,9 +1,7 @@
 mat-card {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   background: #878e91da;
-  align-items: center;
   width: fit-content;
   padding: 10px;
   a {

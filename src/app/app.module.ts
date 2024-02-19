@@ -23,6 +23,7 @@ import { SocialCardComponent } from './pages/welcome/social-card/social-card.com
 import { ButtonMenuComponent } from './pages/welcome/button-menu/button-menu.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ActivitiesComponent } from './pages/activities/activities.component';
+import { InstagramFeedComponent } from './shared/components/instagram-feed/instagram-feed.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ActivitiesComponent } from './pages/activities/activities.component';
     ButtonMenuComponent,
     ContactComponent,
     ActivitiesComponent,
+    InstagramFeedComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [MediaMatcher, MediaQueryList],
