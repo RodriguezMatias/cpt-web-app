@@ -1,24 +1,28 @@
+<app-image-parallax [text]="glider.model + ' - ' + glider.designator"></app-image-parallax>
+
 <mat-drawer-container>
-  <mat-drawer mode="side" opened><app-glider-sidenav></app-glider-sidenav></mat-drawer>
+  <mat-drawer mode="side" opened>
+    <app-glider-sidenav></app-glider-sidenav>
+  </mat-drawer>
   <mat-drawer-content>
     <mat-card>
-      <h1>
+      <p>
         {{ glider.model }} -
         {{ glider.designator }}
-      </h1>
+      </p>
       <img mat-card-image srcset="{{ glider.image }}" alt="Card image" onError="this.src='./assets/logo.png'" />
 
-      <h1>{{ glider.description }}</h1>
+      <h3>{{ glider.description }}</h3>
 
-      <mat-card *ngIf="glider.manualList.length > 0">
-        <h2>Documentacion - Descargas</h2>
+      <div *ngIf="glider.manualList.length > 0">
+        <p>Documentacion</p>
         <ng-container *ngFor="let manual of glider.manualList">
           <a href="{{ manual.link }}" mat-raised-button color="primary">
             {{ manual.name }} - Descargar
             <img src="./assets/svg/download.svg" />
           </a>
         </ng-container>
-      </mat-card>
+      </div>
     </mat-card>
   </mat-drawer-content>
 </mat-drawer-container>

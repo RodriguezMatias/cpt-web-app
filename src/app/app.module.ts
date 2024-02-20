@@ -16,7 +16,6 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { GliderSidenavComponent } from './pages/gliders/glider-sidenav/glider-sidenav.component';
 import { FlyWithUsComponent } from './pages/fly-with-us/fly-with-us.component';
 import { PagenotfoundComponent } from './pages/page-not-found/page-not-found.component';
-import { ScrollToTopComponent } from './shared/components/scroll-to-top/scroll-to-top.component';
 import { ParallaxDirective } from './shared/directives/parallax.directive';
 import { ImageParallaxComponent } from './pages/welcome/image-parallax/image-parallax.component';
 import { SocialCardComponent } from './pages/welcome/social-card/social-card.component';
@@ -37,7 +36,6 @@ import { InstagramFeedComponent } from './shared/components/instagram-feed/insta
     GliderSidenavComponent,
     FlyWithUsComponent,
     PagenotfoundComponent,
-    ScrollToTopComponent,
     ParallaxDirective,
     ImageParallaxComponent,
     SocialCardComponent,

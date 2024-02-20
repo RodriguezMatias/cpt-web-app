@@ -10,10 +10,8 @@ div {
     margin: 20px;
     width: 20rem;
   }
-}
-
-@media only screen and (max-width: 738px) {
-  h1 {
-    display: none;
-  }
+  background: no-repeat center url('/assets/fondo.jpg');
+  background-size: cover;
+  box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2);
+  overflow: scroll;
 }
