@@ -4,7 +4,7 @@ export const GLIDERS: Glider[] = [
   {
     model: 'Grob G103 Twin Astir II',
     designator: 'LV-EJB',
-    image: 'https://drive.google.com/file/d/1scGfbrgTqsvfgcE4bILKANzZeVhEBEdV/preview',
+    image: '/assets/LV-EJB.png',
     manualList: [
       { name: 'Manual de vuelo EJB (Aleman)', link: 'https://drive.google.com/file/d/1Vw0pVjjdougZ-falPRtVRE52i7x20rxF/view?usp=drive_link' },
       { name: 'Manual de vuelo Twin II (Ingles)', link: 'https://drive.google.com/file/d/1B-ZhsByirAkh8mqSL5dcM8D8Z15jY1Js/view?usp=drive_link' },
@@ -18,7 +18,7 @@ export const GLIDERS: Glider[] = [
   {
     model: 'ICA Is282B "AW"',
     designator: 'LV-EJP',
-    image: 'https://drive.google.com/file/d/1SxzhToRHB4nuigX-TKfnoL1n4j2YZCLj/preview',
+    image: '/assets/LV-EJP.png',
     manualList: [
       { name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1nsh3AE_l1dghLO6XHg3Aj8sHTt5zEGOb/view?usp=drive_link' },
       {
@@ -31,7 +31,7 @@ export const GLIDERS: Glider[] = [
   {
     model: 'Smyk Pw-5 "ST"',
     designator: 'LV-EMW',
-    image: 'https://drive.google.com/file/d/1KyqBm_If-1DWm23VUQFGKs7byO4ocbBI/preview',
+    image: '/assets/LV-EMW.png',
     manualList: [
       { name: 'Manual de vuelo (no oficial) (Español)', link: 'https://drive.google.com/file/d/168jzWGnvX2LBjrFDqvTuAvZvkMyxRTDx/view?usp=sharing' },
       { name: 'Manual de mantenimiento (Ingles)', link: 'https://drive.google.com/file/d/1AZT2cIGKZsIPuaRAUNshldQ5BuikWRwH/view?usp=drive_link' },
@@ -50,7 +50,7 @@ export const GLIDERS: Glider[] = [
   {
     model: 'Grob G102 Astir Cs77 "59"',
     designator: 'LV-DNH',
-    image: 'https://drive.google.com/file/d/1oJVlg-yQLkybXWR2JnZk8d8iFLpz91ra/preview',
+    image: '/assets/LV-DNH.png',
     manualList: [
       { name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1tTe-OKSdZJXv8GBs9RvYH24e8ORNuR_P/view?usp=drive_link' },
       {
@@ -63,35 +63,35 @@ export const GLIDERS: Glider[] = [
   {
     model: 'Schempp-Hirth Cirrus 75 "35"',
     designator: 'LV-EIH',
-    image: 'https://drive.google.com/file/d/11TMjqqsYgSN2VBnTwC0zm1rJJFY91kmz/preview',
+    image: '/assets/LV-EIH.jpg',
     manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1gkcVdmekeXa6izGqMHHj4TQnfPh7o-Ft/view?usp=drive_link' }],
     description: 'Planeador(Pagina En proceso)',
   },
   {
     model: 'Schempp-Hirth Cirrus "95"',
     designator: 'LV-DJA',
-    image: 'https://drive.google.com/file/d/1xnFG4DSha2lMlEumfuD9MeSHSS4L23Rt/preview',
+    image: '/assets/LV-DJA.png',
     manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1rOCF6EmEAxgg6vOEnGvgYkUO6AL8629G/view?usp=drive_link' }],
     description: 'Planeador(Pagina En proceso)',
   },
   {
     model: 'Jantar Std 2 "PT"',
     designator: 'LV-EIT',
-    image: 'https://drive.google.com/file/d/1wfvBoPG7ESfldJc1qbjmjnlze00V1hgu/preview',
+    image: '/assets/LV-EIT.png',
     manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/15b9OYf4j41PQmW5u2DuSDxtOk8eKJMSZ/view?usp=drive_link' }],
     description: 'El SZD-48 Jantar Standard 2 es un planeador de clase estándar que fue diseñado y producido en Polonia a partir de 1977.',
   },
   {
     model: 'Jantar 2B "HV"',
     designator: 'LV-DOB',
-    image: 'https://drive.google.com/file/d/1ZPhDF5qEflWBbu3mxk_4l3Ff65OTGBSj/preview',
+    image: '/assets/LV-DOB.jpg',
     manualList: [],
     description: '(Pagina En proceso)',
   },
   {
     model: 'Aero Boero 180',
     designator: 'LV-AOG',
-    image: 'https://drive.google.com/file/d/1TRYV_OrRP_EnVqyYvk-f1Lqktcfw8-gj/preview',
+    image: '/assets/LV-AOG.jpg',
     manualList: [
       { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link' },
       { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link' },
@@ -105,7 +105,7 @@ export const GLIDERS: Glider[] = [
   {
     model: 'Aero Boero 180',
     designator: 'LV-LPR',
-    image: 'https://drive.google.com/file/d/1Bbi3SRx1AZmlYQajPLhhYx2iyZxU1Px9/preview',
+    image: '/assets/LV-LPR.png',
     manualList: [
       { name: 'AB 180 Partes', link: 'https://drive.google.com/file/d/1fTZ_5MwP2tysRPOmVp7F1BNcAN-bCetV/view?usp=drive_link' },
       { name: 'AB 180 Manual vuelo 1', link: 'https://drive.google.com/file/d/1sGyzeiqUto_BbTGyV1slhuVnRK39P-oF/view?usp=drive_link' },
