@@ -60,10 +60,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cpt-web:build:production"
+              "browserTarget": "cpt-web:build:production",
+              "proxyConfig": "src/proxy.conf.json"
+
             },
             "development": {
-              "browserTarget": "cpt-web:build:development"
+              "browserTarget": "cpt-web:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

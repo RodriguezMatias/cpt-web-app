@@ -22,6 +22,7 @@ export class InfoCardContainerComponent {
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
     gliderService.getGliders().subscribe((gliders) => (this.gliderArray = gliders));
+    console.log('obtenidos planeadores');
   }
 
   ngOnDestroy(): void {

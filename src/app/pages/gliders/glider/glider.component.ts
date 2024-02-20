@@ -12,14 +12,13 @@ export class GliderComponent implements OnInit {
   glider: Glider = {} as Glider;
   gliderDesignator?: string;
 
-
-  constructor(private activeRoute: ActivatedRoute, private router: Router, private gliderService: GliderService) {
-  }
+  constructor(private activeRoute: ActivatedRoute, private router: Router, private gliderService: GliderService) {}
 
   ngOnInit() {
     this.activeRoute.params.subscribe(() => {
       this.gliderDesignator = this.router.url.split('/').pop() ?? '';
       this.getGlider(this.gliderDesignator);
+      console.log('obtenidos planeadores');
     });
   }
 
