@@ -11,7 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 const routes: Routes = [
   { path: 'aeronaves', component: InfoCardContainerComponent },
   { path: 'aeronaves/:designator', component: GliderComponent },
-  { path: 'informacion', component: FlyWithUsComponent },
+  { path: 'documentacion', component: FlyWithUsComponent },
   { path: 'actividades', component: ActivitiesComponent },
   { path: 'contacto', component: ContactComponent },
   { path: '', component: WelcomeComponent },

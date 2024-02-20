@@ -18,7 +18,6 @@ export class GliderComponent implements OnInit {
     this.activeRoute.params.subscribe(() => {
       this.gliderDesignator = this.router.url.split('/').pop() ?? '';
       this.getGlider(this.gliderDesignator);
-      console.log('obtenidos planeadores');
     });
   }
 

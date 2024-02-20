@@ -1,5 +1,5 @@
 import { MediaMatcher } from '@angular/cdk/layout';
-import { ChangeDetectorRef, Component, Input } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
 import { Glider } from '../../../models/glider';
 import { GliderService } from 'src/app/services/glider/glider.service';
 
@@ -22,10 +22,9 @@ export class InfoCardContainerComponent {
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
     gliderService.getGliders().subscribe((gliders) => (this.gliderArray = gliders));
-    console.log('obtenidos planeadores');
   }
 
-  ngOnDestroy(): void {
+  OnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 }

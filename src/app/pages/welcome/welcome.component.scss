@@ -1,18 +1,39 @@
-div {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@media only screen and (min-width: 738px) {
   div {
-    margin: 15px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    h2 {
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 737px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    h2 {
+      margin: 1vw;
+      text-align: center;
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
