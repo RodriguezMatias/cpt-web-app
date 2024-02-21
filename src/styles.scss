@@ -6,10 +6,10 @@
 // Define your theme with color palettes, typography and density
 
 $mat-theme-primary-palette: map-merge(
-  mat.$green-palette,
+  mat.$blue-palette,
   (
     contrast: (
-      100: #150c4a,
+      100: #b3dbef,
     ),
   )
 );
@@ -105,7 +105,6 @@ body {
 }
 body {
   margin: 0;
-  background: #878e91da;
 }
 
 /*this hiddes the scrollbar on desktop mode
