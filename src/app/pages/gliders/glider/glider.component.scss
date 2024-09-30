@@ -10,6 +10,9 @@ mat-drawer-container {
       align-items: center;
       background: #878e91da;
       margin: 2rem;
+      h3 {
+        margin: 2rem;
+      }
       img {
         align-self: center;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

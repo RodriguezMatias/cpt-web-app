@@ -64,15 +64,23 @@ export const GLIDERS: Glider[] = [
     model: 'Schempp-Hirth Cirrus 75 "35"',
     designator: 'LV-EIH',
     image: '/assets/LV-EIH.jpg',
-    manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1gkcVdmekeXa6izGqMHHj4TQnfPh7o-Ft/view?usp=drive_link' }],
-    description: 'Planeador(Pagina En proceso)',
+    manualList: [
+      { name: 'Manual de vuelo escaneo ZIP', link: 'https://drive.google.com/file/d/1gkcVdmekeXa6izGqMHHj4TQnfPh7o-Ft/view?usp=drive_link' },
+      { name: 'Manual de vuelo PDF', link: 'https://drive.google.com/file/d/1XnSfaLqVvYmLQmuCVzP4VfG3zC9_cL4z/view?usp=drive_link' },
+    ],
+    description:
+      'Versión de "Standard Cirrus 75" producida en Yugoslavia por la empresa VTC (Vazduhoplovno Technicki Centar), y luego por Jastreb Fabrika Aviona Jedrilica. Fueron construidos 82 ejemplares.',
   },
   {
     model: 'Schempp-Hirth Cirrus "95"',
     designator: 'LV-DJA',
     image: '/assets/LV-DJA.png',
-    manualList: [{ name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1rOCF6EmEAxgg6vOEnGvgYkUO6AL8629G/view?usp=drive_link' }],
-    description: 'Planeador(Pagina En proceso)',
+    manualList: [
+      { name: 'Manual de escaneo ZIP', link: 'https://drive.google.com/file/d/1rOCF6EmEAxgg6vOEnGvgYkUO6AL8629G/view?usp=drive_link' },
+      { name: 'Manual de vuelo Pdf', link: 'https://drive.google.com/file/d/1-9Wm-NDDAfBPJZAWoN0alNCe53zbv2iy/view?usp=drive_link' },
+    ],
+    description:
+      'Versión inicial. 15 metros de envergadura, empenaje en "T" pendular y cubrecabina de una sola pieza. Schempp-Hirth fabricó 423 planeadores. La empresa Grob fabricó 194 ejemplares y se identifican por tener en su Nº de serie el sufijo "G".',
   },
   {
     model: 'Jantar Std 2 "PT"',
