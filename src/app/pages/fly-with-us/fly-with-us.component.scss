@@ -13,11 +13,12 @@ div {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
       a {
         text-decoration: none;
         margin: 10px;
-        width: 400px;
+        width: 40em;
+        height: 4em;
         display: flex;
         text-align: center;
       }
