@@ -23,6 +23,7 @@ import { ButtonMenuComponent } from './pages/welcome/button-menu/button-menu.com
 import { ContactComponent } from './pages/contact/contact.component';
 import { ActivitiesComponent } from './pages/activities/activities.component';
 import { InstagramFeedComponent } from './shared/components/instagram-feed/instagram-feed.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { InstagramFeedComponent } from './shared/components/instagram-feed/insta
     ContactComponent,
     ActivitiesComponent,
     InstagramFeedComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [MediaMatcher, MediaQueryList],

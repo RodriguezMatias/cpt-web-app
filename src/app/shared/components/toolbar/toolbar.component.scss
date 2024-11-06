@@ -2,6 +2,10 @@
   font-size: 100%;
 }
 
+.white-text{
+  color: white !important;
+}
+
 .text {
   white-space: nowrap;
   overflow: hidden;
@@ -36,4 +40,5 @@ a {
 }
 
 .toolbar {
+  background-color: #4d77b6;
 }

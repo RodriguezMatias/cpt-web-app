@@ -1,6 +1,6 @@
-<mat-toolbar color="accent" class="toolbar">
+<mat-toolbar class="toolbar">
   <button class="hide-display-desktop" mat-button [matMenuTriggerFor]="menu">
-    <mat-icon>menu</mat-icon>
+    <mat-icon class="white-text">menu</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item routerLink="/">Inicio</button>
@@ -10,14 +10,14 @@
     <button mat-menu-item routerLink="/contacto">Contacto</button>
   </mat-menu>
 
-  <a mat-button class="buttonName text" routerLink="/"> Club de Planeadores Tandil </a>
+  <a mat-button class="buttonName text" routerLink="/" class="white-text"> Club de Planeadores Tandil </a>
   <span class="spacer"></span>
 
   <div class="hide-display-mobile text">
-    <a mat-button routerLink="/">Inicio</a>
-    <a mat-button routerLink="/documentacion">Documentacion</a>
-    <a mat-button routerLink="/aeronaves">Aeronaves</a>
-    <a mat-button routerLink="/actividades">Actividades</a>
-    <a mat-button routerLink="/contacto">Contacto</a>
+    <a mat-button routerLink="/"  class="white-text">Inicio</a>
+    <a mat-button routerLink="/documentacion"  class="white-text">Documentacion</a>
+    <a mat-button routerLink="/aeronaves"  class="white-text">Aeronaves</a>
+    <a mat-button routerLink="/actividades"  class="white-text">Actividades</a>
+    <a mat-button routerLink="/contacto"  class="white-text">Contacto</a>
   </div>
 </mat-toolbar>
