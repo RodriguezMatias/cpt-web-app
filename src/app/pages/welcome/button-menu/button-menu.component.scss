@@ -1,9 +1,10 @@
 mat-card {
-  background: #878e91da;
+  background: #4d77b6;
   display: flex;
-  flex-direction: column;
-  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: fit-content;
+  height: fit-content;
   div {
     display: flex;
     align-items: center;
@@ -11,5 +12,11 @@ mat-card {
     button {
       margin: 10px;
     }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  mat-card {
+    flex-direction: column;
   }
 }

@@ -15,7 +15,7 @@
       <h3>{{ glider.description }}</h3>
 
       <div *ngIf="glider.manualList.length > 0">
-        <p>Documentacion</p>
+        <h4>Documentacion</h4>
         <ng-container *ngFor="let manual of glider.manualList">
           <a href="{{ manual.link }}" mat-raised-button color="primary">
             {{ manual.name }} - Descargar
