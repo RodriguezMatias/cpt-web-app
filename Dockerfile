@@ -22,6 +22,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY ssl/cpt-web/root-cpt-web.crt  /usr/share/nginx/certs
 COPY ssl/cpt-web/rootCA-cpt-web.key  /usr/share/nginx/certs
 
-COPY --from=build app/dist/cpt-web-app /usr/share/nginx/html
+COPY --from=build app/dist/cpt-web /usr/share/nginx/html
+
 
 EXPOSE 80
