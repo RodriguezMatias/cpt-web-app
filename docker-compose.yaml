@@ -1,0 +1,14 @@
+version: '3'
+services:
+  cpt-web:
+    image: cpt-web:1
+    container_name: cpt-web
+    ports:
+      - "8000:80"
+    restart: always
+    networks:
+      - cpt-web-network
+
+networks:
+  cpt-web-network:
+    driver: bridge
