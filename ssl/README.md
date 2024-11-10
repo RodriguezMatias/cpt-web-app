@@ -1,4 +1,4 @@
 Place in this folder both ssl 
 
-rootCArootCA.crt
-rootCA.key
+rootCA-cpt-web.crt
+rootCA-cpt-web.key
