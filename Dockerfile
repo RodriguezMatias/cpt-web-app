@@ -14,6 +14,15 @@ RUN ng build --configuration=production
 
 FROM nginx:latest
 
+# Copy the NGINX configuration file to the appropriate location
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Copy certs to container
+
+COPY ssl/cpt-web/root-cpt-web.crt  /usr/share/nginx/certs
+COPY ssl/cpt-web/rootCA-cpt-web.key  /usr/share/nginx/certs
+
 COPY --from=build app/dist/cpt-web /usr/share/nginx/html
+
 
 EXPOSE 80
