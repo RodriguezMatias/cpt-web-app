@@ -25,4 +25,5 @@ COPY ssl/rootCA-cpt-web.key  /etc/nginx
 COPY --from=build app/dist/cpt-web /usr/share/nginx/html
 
 
-EXPOSE 80
+# Specify the command to run NGINX in the foreground
+CMD ["nginx", "-g", "daemon off;"]
