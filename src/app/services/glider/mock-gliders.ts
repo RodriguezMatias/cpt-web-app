@@ -61,6 +61,19 @@ export const GLIDERS: Glider[] = [
     description: 'Planeador clase club.',
   },
   {
+    model: 'Grob G102 Astir Cs77 "OK"',
+    designator: 'LV-EIW',
+    image: '/assets/LV-EIW.png',
+    manualList: [
+      { name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1tTe-OKSdZJXv8GBs9RvYH24e8ORNuR_P/view?usp=drive_link' },
+      {
+        name: 'Manual de vuelo y Mantenimiento (No oficial-Ingles)',
+        link: 'https://drive.google.com/file/d/1vSoQ1hH4Ki0xqM-L-OKow10rqZ5lXvMc/view?usp=drive_link',
+      },
+    ],
+    description: 'Planeador clase club.',
+  },
+  {
     model: 'Schempp-Hirth Cirrus 75 "35"',
     designator: 'LV-EIH',
     image: '/assets/LV-EIH.jpg',

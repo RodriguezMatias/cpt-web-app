@@ -10,8 +10,13 @@ div {
     margin: 20px;
     width: 20rem;
   }
-  background: no-repeat center url('/assets/fondo.jpg');
+  background: no-repeat center url("/assets/fondo.jpg");
   background-size: cover;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
   overflow: scroll;
+  h2 {
+    color: white;
+  }
 }
