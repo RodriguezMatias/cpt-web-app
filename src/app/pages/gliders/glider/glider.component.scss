@@ -10,7 +10,7 @@ mat-drawer-container {
   mat-drawer-content {
     mat-card {
       align-items: center;
-      background: #878e91da;
+      background: #909ba000;
       margin: 2rem;
       h3 {
         margin: 2rem;
@@ -40,5 +40,11 @@ mat-drawer-container {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 737px) {
+  mat-drawer {
+    display: none;
   }
 }

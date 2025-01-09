@@ -61,7 +61,7 @@ export const GLIDERS: Glider[] = [
     description: 'Planeador clase club.',
   },
   {
-    model: 'Grob G102 Astir Cs77 "OK"',
+    model: 'Grob G102 Astir "OK"',
     designator: 'LV-EIW',
     image: '/assets/LV-EIW.png',
     manualList: [
