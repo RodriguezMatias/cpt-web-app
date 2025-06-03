@@ -1,5 +1,5 @@
 import { MediaMatcher } from '@angular/cdk/layout';
-import { ChangeDetectorRef, Component } from '@angular/core';
+import { ChangeDetectorRef, Component, OnDestroy } from '@angular/core';
 import { Glider } from '../../../models/glider';
 import { GliderService } from 'src/app/services/glider/glider.service';
 
@@ -8,7 +8,7 @@ import { GliderService } from 'src/app/services/glider/glider.service';
   templateUrl: './info-card-container.component.html',
   styleUrls: ['./info-card-container.component.scss'],
 })
-export class InfoCardContainerComponent {
+export class InfoCardContainerComponent implements OnDestroy {
   sliderValue = 1;
 
   private _mobileQueryListener: () => void;
@@ -24,7 +24,7 @@ export class InfoCardContainerComponent {
     gliderService.getGliders().subscribe((gliders) => (this.gliderArray = gliders));
   }
 
-  OnDestroy(): void {
+  ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 }
