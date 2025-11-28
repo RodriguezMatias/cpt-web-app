@@ -22,8 +22,16 @@ export const GLIDERS: Glider[] = [
     manualList: [
       { name: 'Manual de vuelo', link: 'https://drive.google.com/file/d/1nsh3AE_l1dghLO6XHg3Aj8sHTt5zEGOb/view?usp=drive_link' },
       {
-        name: 'Manual de Mantenimiento-Partes-Tecnico (Zip)',
-        link: 'https://drive.google.com/file/d/1O__toV7_ofaUeF8Q4SdVxkEBNiIuZ4aW/view?usp=drive_link',
+        name: 'Manual de Reparacion',
+        link: 'https://drive.google.com/file/d/1vRc83G2diX24CE7-a4d9vysNDLVZQnc0/view?usp=drive_link',
+      },
+      {
+        name: 'Manual de Partes',
+        link: 'https://drive.google.com/file/d/1FYwBaXwNSkrnTrJawgaKdGK6cbGrWbRM/view?usp=drive_link',
+      },
+      {
+        name: 'Manual Tecnico',
+        link: 'https://drive.google.com/file/d/1vDL4iNazHUM8QoMy7wDdtnm72avOGTbA/view?usp=drive_link',
       },
     ],
     description: 'Planeador biplaza utilizado para bautismos, escuela y vuelos deportivos.',
