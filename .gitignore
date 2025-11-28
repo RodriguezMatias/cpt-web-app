@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+# Note: /docs is NOT ignored - it contains the build for GitHub Pages
 
 # Node
 /node_modules

@@ -2,28 +2,46 @@
 
 ## Build and Deploy to GitHub Pages
 
-```
-Build the Angular application and deploy it to GitHub Pages. Follow these steps:
+The application is now configured to deploy directly from the master branch using the `docs/` folder.
 
-1. Build the application:
-   - Switch to master branch: `git checkout master`
+### Quick Deploy (Recommended)
+
+Simply run:
+```powershell
+.\deploy.ps1
+```
+
+Or manually:
+```bash
+npm run build
+git add docs CNAME
+git commit -m "Deploy: [description]"
+git push origin master
+```
+
+### Manual Steps
+
+1. **Build the application:**
+   - Ensure you're on master branch: `git checkout master`
    - Run `npm install` if dependencies are not installed
    - Run `npm run build` to create a production build
-   - Verify the build output is in `dist/cpt-web/` directory
+   - Build output will be in `docs/` directory
 
-2. Deploy to deploy-branch:
-   - Switch to deploy-branch: `git checkout deploy-branch`
-   - Remove old files (except .git, .gitignore, dist, node_modules)
-   - Copy all files from `dist/cpt-web/*` to the root of deploy-branch
-   - Copy CNAME file from master branch to deploy-branch root
-   - Stage all changes: `git add -A`
-   - Commit with message: "Deploy: [description of changes]"
-   - Push to remote: `git push origin deploy-branch`
+2. **Deploy:**
+   - Copy CNAME to docs folder: `Copy-Item CNAME docs/CNAME`
+   - Stage build files: `git add docs`
+   - Commit: `git commit -m "Deploy: [description]"`
+   - Push: `git push origin master`
 
-3. Verify deployment:
-   - Check that 404.html exists in the root of deploy-branch
-   - Check that CNAME file exists for custom domain
-   - Verify all build files are present
+3. **GitHub Pages Configuration:**
+   - Go to repository Settings > Pages
+   - Set Source to "Deploy from a branch"
+   - Select branch: `master`
+   - Select folder: `/docs`
+   - Save
 
-Note: The deploy-branch is used for GitHub Pages hosting. All build artifacts should be in the root of this branch.
-```
+### Notes:
+- The `docs/` folder contains the build output and is committed to master
+- The `CNAME` file should be in the `docs/` folder for custom domain support
+- No need to switch branches - everything happens on master
+- GitHub Pages will automatically serve from the `/docs` folder

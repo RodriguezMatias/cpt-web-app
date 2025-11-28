@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "npm run build && git add docs CNAME && git commit -m \"Deploy: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')\" && git push origin master",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
