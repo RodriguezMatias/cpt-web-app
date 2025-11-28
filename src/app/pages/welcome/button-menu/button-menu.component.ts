@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-button-menu',
   templateUrl: './button-menu.component.html',
   styleUrls: ['./button-menu.component.scss'],
+  standalone: false,
 })
 export class ButtonMenuComponent {}

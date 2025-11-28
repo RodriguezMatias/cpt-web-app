@@ -7,6 +7,7 @@ import { GliderService } from 'src/app/services/glider/glider.service';
   selector: 'app-info-card-container',
   templateUrl: './info-card-container.component.html',
   styleUrls: ['./info-card-container.component.scss'],
+  standalone: false,
 })
 export class InfoCardContainerComponent {
   sliderValue = 1;

@@ -7,6 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   selector: 'app-glider',
   templateUrl: './glider.component.html',
   styleUrls: ['./glider.component.scss'],
+  standalone: false,
 })
 export class GliderComponent implements OnInit {
   glider: Glider = {} as Glider;

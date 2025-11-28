@@ -2,6 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'enumerate',
+  standalone: false,
 })
 export class EnumeratePipe implements PipeTransform {
   transform(n: number): number[] {

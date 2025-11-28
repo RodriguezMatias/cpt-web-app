@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-instagram-feed',
   templateUrl: './instagram-feed.component.html',
   styleUrls: ['./instagram-feed.component.scss'],
+  standalone: false,
 })
 export class InstagramFeedComponent {}
