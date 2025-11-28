@@ -14,7 +14,8 @@ Simply run:
 Or manually:
 ```bash
 npm run build
-git add docs CNAME
+Copy-Item CNAME docs/CNAME
+git add docs
 git commit -m "Deploy: [description]"
 git push origin master
 ```
