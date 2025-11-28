@@ -35,6 +35,25 @@
       }
     }(window.location))
 
+    // Suppress Facebook SDK errors from Instagram embeds
+    window.addEventListener('error', function(e) {
+      if (e.filename && (e.filename.includes('8WauLuHIUmG.js') || e.filename.includes('facebook') || e.message && e.message.includes('route config'))) {
+        e.preventDefault();
+        return true;
+      }
+    }, true);
+
+    // Suppress console errors from Facebook SDK
+    var originalError = console.error;
+    console.error = function() {
+      var args = Array.prototype.slice.call(arguments);
+      var message = args.join(' ');
+      if (message.includes('route config') || message.includes('ErrorUtils') || message.includes('8WauLuHIUmG')) {
+        return; // Suppress Facebook SDK errors
+      }
+      originalError.apply(console, args);
+    };
+
   </script>
 </head>
 
